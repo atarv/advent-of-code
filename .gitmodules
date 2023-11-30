@@ -1,0 +1,6 @@
+[submodule "aoc-2022"]
+	path = aoc-2022
+	url = https://github.com/atarv/aoc-2022
+[submodule "aoc-2021"]
+	path = aoc-2021
+	url = https://github.com/atarv/aoc-2021
