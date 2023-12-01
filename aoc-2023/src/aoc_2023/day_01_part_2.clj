@@ -14,7 +14,6 @@
                        "nine" 9
                        %)
         digits (map to-digit digits-raw)]
-    (println line digits)
     (parse-long (str (first digits) (last digits)))))
 
 (defn -main []
