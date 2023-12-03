@@ -8,5 +8,6 @@
              :day-01-part-2 {:main aoc-2023.day-01-part-2}
              :day-02-part-1 {:main aoc-2023.day-02-part-1}
              :day-02-part-2 {:main aoc-2023.day-02-part-2}
+             :day-03-part-1 {:main aoc-2023.day-03-part-1}
              :uberjar {:aot :all
                        :jvm-opts ["-Dclojure.compiler.direct-linking=true"]}})
