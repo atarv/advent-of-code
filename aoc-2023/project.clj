@@ -13,6 +13,6 @@
   :dependencies [[org.clojure/clojure "1.11.1"]]
   :main nil
   :target-path "target/%s"
-  :profiles ~(merge (gen-profiles-until 4 1)
+  :profiles ~(merge (gen-profiles-until 4 2)
                     {:uberjar {:aot :all
                                :jvm-opts ["-Dclojure.compiler.direct-linking=true"]}}))
